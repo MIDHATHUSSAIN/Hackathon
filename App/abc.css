@@ -1,0 +1,59 @@
+*{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden;
+}
+#nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    margin-left: 8rem;
+    
+}
+ul{
+    list-style-type: none;
+}
+#last {
+
+    display: flex;
+    align-items: center;
+    gap : 2rem ; 
+    margin-right: 2rem;
+}
+
+#rec {
+    height: 2rem;
+    width: 20rem;
+    border-radius: 3rem ;
+    padding-left: 2rem;
+}
+#apple{
+
+    margin-left: 8rem;
+
+}
+#cool {
+    margin-left: 40rem;
+}
+
+@media (width < 975px){
+     
+    #apple{
+        margin-left: 1rem;
+    }
+    #rec{
+        max-width: 10rem;
+    }
+    #nav{
+        margin-left: 4rem;
+    }
+    #gg{
+        margin-left: 2rem;
+    }
+    #cool{
+        margin-left: 1rem;
+    }
+}
